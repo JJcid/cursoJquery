@@ -401,4 +401,16 @@ section#bloque5 input[type="email"]{
 	text-transform: none;
 }
 
+/*SCROLL UP*/
+
+
+#scrollUp{
+	bottom:20px;
+	right: 20px;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background-image: url("../img/flecha.jpg");
+}
+
 
