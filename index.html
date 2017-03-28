@@ -6,10 +6,12 @@
 
 		<link rel="icon" href="img/icono.png">
 		<link rel="stylesheet" href="css/estilo.css" media="">
+		<link rel="stylesheet" href="css/cssFlexSlider/flexslider.css" media="">
 		<script src="js/jquery-3.0.0.min.js"></script>
 		<script src="js/Plugins Jquery/Animate Scroll/animatescroll.js"></script>
 		<script src="js/Plugins Jquery/Scroll Up/jquery.scrollUp.js"></script>
 		<script src="js/Plugins Jquery/Easing/jquery.easing.js"></script>
+		<script src="js/Plugins Jquery/FlexSlider/jquery.flexslider.js"></script>
 	</head>
 
 	<body>
@@ -84,15 +86,16 @@
 			<!--Bloque 3-->
 
 				<section id="bloque3">
-
 					<div id="estadios">
-						
-							<img src="img/slide01.jpg" alt="">
-							<img src="img/slide02.jpg" alt="">
-							<img src="img/slide03.jpg" alt="">
-							<img src="img/slide04.jpg" alt="">
-							<img src="img/slide05.jpg" alt="">
-
+						<div class="flexslider">
+							<ul class="slides">
+								<li><img src="img/slide01.jpg" alt=""></li>
+								<li><img src="img/slide02.jpg" alt=""></li>
+								<li><img src="img/slide03.jpg" alt=""></li>
+								<li><img src="img/slide04.jpg" alt=""></li>
+								<li><img src="img/slide05.jpg" alt=""></li>
+							</ul>
+						</div>
 					</div>
 					
 				</section>
@@ -317,6 +320,7 @@
 		<script src="js/scrollAnimado.js"></script>
 		<script src="js/upButton.js"></script>
 		<script src="js/animacionGrupos.js"></script>
+		<script src="js/slide.js"></script>
 
 	</body>
 </html>
