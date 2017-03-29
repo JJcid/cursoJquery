@@ -12,6 +12,7 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center top;
+	overflow: hidden;
 }
 
 #contenedor{
@@ -24,6 +25,52 @@ body{
 /***********************************************
 CARGADOR
 ***********************************************/
+
+#preload{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: black;;
+}
+
+#porcentajeCarga{
+	position: absolute;
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: white;
+	top: 45%;
+}
+
+#fondoCarga{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #333;
+}
+
+#rellenoCarga{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 0%;
+	height: 1px;
+	background-color: #fff;
+}
+
+#estadoCarga{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: -100px 0 0 -100px;
+	background: url("../img/preload/loader.gif") center no-repeat;
+}
 
 /***********************************************
 BLOQUE 00
